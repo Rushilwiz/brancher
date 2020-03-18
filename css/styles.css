@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat&display=swap');
+
 .main_h {
 	 position: fixed;
 	 max-height: 70px;
@@ -226,4 +228,3 @@
 		 transform: translateY(20px);
 	}
 }
- 
