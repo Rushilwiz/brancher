@@ -46,7 +46,3 @@ fixtures/*.sql
 # NPM-related ignores
 node_modules/
 package-lock.json
-
-
-#SCSS-related ignores
-*.map
