@@ -13,6 +13,7 @@
      src: url("fonts/futura-pt-light.otf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat:wght@500;600&display=swap');
 
 // MQ trigger
 @mixin small {
@@ -91,9 +92,16 @@ nav {
       }
     }
     a {
-      color: #888888;
+      color: #ddd;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: .3s;
+      &:hover {
+        color: #ffd1dc;
+        font-size: 15px;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -191,7 +199,10 @@ p {
   }
 }
 
-
+.scroll-text {
+  height: 76.8px;
+  overflow: hidden;
+}
 
 @-webkit-keyframes scroll {
   0% {

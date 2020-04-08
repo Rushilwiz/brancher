@@ -17,8 +17,14 @@
    id="svg3729"
    sodipodi:docname="black_on_white.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
-  <defs
-     id="defs3723" />
+  <defs id="defs3723">
+    <style type="text/css">
+      @font-face {
+        font-family: Coves;
+        src: url('/css/res/fonts/Coves Light.otf');
+      }
+    </style>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
