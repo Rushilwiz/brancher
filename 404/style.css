@@ -1,0 +1,36 @@
+* {
+     color: #fff;
+}
+
+body {
+     background-color: #000;
+}
+
+.header {
+     left: 50%;
+     transform: translateX(-50%) rotate(180deg);
+     font-family: monospace;
+     font-weight: 200;
+     font-size: 9vh;
+}
+
+.desc {
+     position: relative;
+     font-family: 'Press Start 2P', monospace;
+     text-transform: uppercase;
+     line-height: 25px;
+     text-align: center;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.foot {
+     margin-top: 200px;
+     font-family: monospace;
+}
+
+img {
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+}

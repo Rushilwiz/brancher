@@ -1,0 +1,17 @@
+---
+- hosts: webservers
+  remote_user: root
+  
+  tasks:
+  - name: fetch latest from github repo
+    git:
+      repo: git@github.com:rushilwiz/brancher.git
+      version: master
+      dest: /var/www/brancher.me/html
+      accept_hostkey: yes
+      key_file: ~/.ssh/brancher_rsa
+
+  - name:  restart apache2
+    service:
+      name: apache2
+      state: restarted     
