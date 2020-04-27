@@ -114,8 +114,10 @@ nav {
   box-sizing: border-box; }
 
 body {
-  color: #8f8f8f;
-  background: white;
+  //color: #8f8f8f;
+  //background: white;
+  color: white;
+  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   font-family: "Cardo", serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased; }
@@ -145,35 +147,24 @@ p {
   background-size: cover;
   background-attachment: local;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #FFFFFF;
 =======
+=======
+>>>>>>> 3137fbe05e3d8f0ce8c66848913714aae94a4ff0
   body {
   animation: 10000ms ease-in-out infinite color-change;
 }
 
-@keyframes color-change {
-  0% {
-    background-color: teal;
-  }
-  20% {
-    background-color: gold;
-  }
-  40% {
-    background-color: indianred;
-  }
-  60% {
-    background-color: violet;
-  }
-  80% {
-    background-color: green;
-  }
-  100% {
-    background-color: teal;
-  }
-}
 
+<<<<<<< HEAD
   
 >>>>>>> 362401d662a29cb198c7c00b361d9d098c08fc9b
+=======
+
+
+
+>>>>>>> 3137fbe05e3d8f0ce8c66848913714aae94a4ff0
   padding-top: 70px;
   min-height: 100vh;
   letter-spacing: 2px;
