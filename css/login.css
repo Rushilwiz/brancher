@@ -1,6 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  background:#FF7F50;
+  background: linear-gradient(to bottom, #33ccff 44%, #ff99cc 66%);
   margin: 0 auto 0 auto;
   width:100%;
   text-align:center;
