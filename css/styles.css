@@ -14,7 +14,8 @@
   z-index: 999;
   width: 100%;
   padding-top: 17px;
-  background: #000;
+  background:linear-gradient(to bottom, #33ccff 44%, #ff99cc 66%);
+;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
