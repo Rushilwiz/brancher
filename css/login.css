@@ -1,6 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  background:#3498db;
+  background:#FF7F50;
   margin: 0 auto 0 auto;
   width:100%;
   text-align:center;
@@ -19,7 +19,7 @@ h1{
 }
 
 .box{
-  background:white;
+  background:black;
   width:300px;
   border-radius:6px;
   margin: 0 auto 0 auto;
