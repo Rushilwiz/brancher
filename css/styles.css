@@ -139,7 +139,7 @@ p {
 
 .hero {
   position: relative;
-  background: #FFFFFF url(res/branch_big.svg) no-repeat center center fixed;
+  background: #FFFFFF url(res/branch_big.svg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
