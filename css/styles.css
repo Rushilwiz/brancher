@@ -114,10 +114,8 @@ nav {
   box-sizing: border-box; }
 
 body {
-  //color: #8f8f8f;
-  //background: white;
-  color: white;
-  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: #8f8f8f;
+  background: white;
   font-family: "Cardo", serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased; }
@@ -141,30 +139,12 @@ p {
 
 .hero {
   position: relative;
-  background: #333 url(res/branch_big.svg) no-repeat center center fixed;
+  background: #FFFFFF url(res/branch_big.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: local;
-<<<<<<< HEAD
-<<<<<<< HEAD
   color: #FFFFFF;
-=======
-=======
->>>>>>> 3137fbe05e3d8f0ce8c66848913714aae94a4ff0
-  body {
-  animation: 10000ms ease-in-out infinite color-change;
-}
-
-
-<<<<<<< HEAD
-  
->>>>>>> 362401d662a29cb198c7c00b361d9d098c08fc9b
-=======
-
-
-
->>>>>>> 3137fbe05e3d8f0ce8c66848913714aae94a4ff0
   padding-top: 70px;
   min-height: 100vh;
   letter-spacing: 2px;
