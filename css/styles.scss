@@ -54,8 +54,9 @@ $color2: #e8f380;
 
 .logo {
   height: 40px;
+  display: inline;
   float: left;
-  margin-top: -15px;
+  margin-top: -5px;
   @include small {
     float: none;
   }
@@ -63,7 +64,9 @@ $color2: #e8f380;
 
 nav {
   float: right;
-  width: 60%;
+  width: 80%;
+  display: inline;
+  padding-right: 30px;
   @include small {
     width: 100%;
   }
@@ -110,7 +113,8 @@ nav {
   display: none;
   cursor: pointer;
   font-size: 20px;
-  position: absolute;
+  //position: absolute;
+  float: right;
   right: 22px;
   top: 0;
   width: 30px;
@@ -132,6 +136,7 @@ nav {
 }
 
 .row {
+  display: inline;
   width: 100%;
   max-width: 940px;
   margin: 0 auto;
