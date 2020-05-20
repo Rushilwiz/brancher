@@ -6,8 +6,13 @@ link rel="stylesheet" type="text/css" href="css/login.css"-->
   </head>
   <body>
     <?php
-      echo "<p>Data processed</>";
-      data_default_timezone_set('UTC');
+      echo "<p>Processed</>";
+      $username = $_POST['uname'];
+      $password = $_POST['psw'];
+      $checkBox = $_POST['remember'];
+      $str = <<<base64_encode
+      Hello $username, thank you for joining Brancher
+      base64_encode;
     ?>
   </body>
 </html>
