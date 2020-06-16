@@ -6,7 +6,7 @@ link rel="stylesheet" type="text/css" href="css/login.css"-->
   </head>
   <body>
     <?php
-      echo "<p>Processed</>";
+      echo "Processed";
       $username = $_POST['uname'];
       $password = $_POST['psw'];
       $checkBox = $_POST['remember'];
