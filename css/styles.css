@@ -117,8 +117,8 @@ body {
   //color: #8f8f8f;
   //background: white;
   color: white;
-  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  font-family: "Cardo", serif;
+  background-image: radial-gradient(circle, #070707 0%, #070707 100%);
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 300;
   -webkit-font-smoothing: antialiased; }
 
@@ -129,7 +129,8 @@ h1 {
   font-size: 30px;
   line-height: 1.8;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 p {
   margin-bottom: 20px;
