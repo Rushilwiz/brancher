@@ -80,7 +80,7 @@ background:#3594D2;
 }
 .brancher{
   background-image: ".css/res/inverse_branch.svg";
-  filter: blur(6px);
+  background-filter: blur(6px);
   -webkit-filter:blur(6px);
   background-repeat:no-repeat;
   background-position:center;
