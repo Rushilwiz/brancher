@@ -14,7 +14,8 @@
   z-index: 999;
   width: 100%;
   padding-top: 17px;
-  background:linear-gradient(to bottom, #0D1821 44%, #B4CDED 66%);
+  background: black;
+  /*linear-gradient(to bottom, #0D1821 44%, #B4CDED 66%); old gradient, back is cleaner imo - josh*/
 ;
   overflow: hidden;
   -webkit-transition: all 0.3s;
