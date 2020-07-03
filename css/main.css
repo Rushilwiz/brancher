@@ -71,6 +71,7 @@ p {
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
+  top:50px;
 }
 
 ul, li {
@@ -201,7 +202,7 @@ iframe {
 /*------------------------------------------------------------------
 [ Login100 more ]*/
 .login100-more {
-background-image: url('css/res/inverse_branch.svg');
+background-image: url('./css/res/inverse_branch.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -274,7 +275,7 @@ background-image: url('css/res/inverse_branch.svg');
   background: transparent;
   font-family: Poppins-Regular;
   font-size: 22px;
-  color: #555555;
+  color: #f8f9fa;
   line-height: 1.2;
   padding: 0 2px;
 }
@@ -303,11 +304,11 @@ background-image: url('css/res/inverse_branch.svg');
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #d5007d;
-  background: -webkit-linear-gradient(45deg, #d5007d, #e53935);
-  background: -o-linear-gradient(45deg, #d5007d, #e53935);
-  background: -moz-linear-gradient(45deg, #d5007d, #e53935);
-  background: linear-gradient(45deg, #d5007d, #e53935);
+  background: #00ffff;
+  background: -webkit-linear-gradient(45deg, #00ffff,#e53935, #009900);
+  background: -o-linear-gradient(45deg, #00ffff,#e53935, #009900);
+  background: -moz-linear-gradient(45deg, #00ffff,#e53935, #009900);
+  background: linear-gradient(45deg, #00ffff,#e53935, #009900);
 }
 
 
@@ -393,7 +394,7 @@ background-image: url('css/res/inverse_branch.svg');
   z-index: -1;
   width: 100%;
   height: 300%;
-  background-color: rgb(rgba(255, 0, 0, 0.5););
+  background-color: rgba(255, 0, 0, 0.5);
   bottom: -100%;
   left: 0;
 
