@@ -8,7 +8,16 @@ $(document).ready(function(){
     // Bind dragging events
     drags(cur.find('.handle'), cur.find('.resize'), cur);
   });
+  $('.extraSpace').each(function(){
+    var cur = $(this);
+    // Adjust the slider
+    var width = cur.width()+'px';
+    cur.find('.resize img').css('width', width);
+    // Bind dragging events
+    drags(cur.find('.handle'), cur.find('.resize'), cur);
+  });
 });
+
 
 // Update sliders on resize.
 // Because we all do this: i.imgur.com/YkbaV.gif
@@ -18,7 +27,13 @@ $(window).resize(function(){
     var width = cur.width()+'px';
     cur.find('.resize img').css('width', width);
   });
+  $('.extraSpace').each(function(){
+    var cur = $(this);
+    var width = cur.width()+'px';
+    cur.find('.resize img').css('width', width);
+  });
 });
+
 
 function drags(dragElement, resizeElement, container) {
 
