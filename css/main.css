@@ -24,7 +24,10 @@
   font-family: Poppins-SemiBold;
   src: url('../fonts/poppins/Poppins-SemiBold.ttf');
 }
-
+@font-face {
+  font-family: GlacialIndifferenceRegular;
+  src: url('https://fontlibrary.org/face/glacial-indifference');
+}
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -241,7 +244,7 @@ background-image: url('./css/res/inverse_branch.svg');
 .login100-form-title {
   display: block;
   width: 100%;
-  font-family: Poppins-Bold;
+  font-family: GlacialIndifferenceRegular;
   font-size: 39px;
   color: #fff;
   line-height: 1.2;
