@@ -272,7 +272,7 @@ background-image: url('./css/res/inverse_branch.svg');
   display: block;
   width: 100%;
   height: 50px;
-  background: transparent;
+  background-color: #070707;
   font-family: Poppins-Regular;
   font-size: 22px;
   color: #f8f9fa;
