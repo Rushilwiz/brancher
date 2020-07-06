@@ -30,7 +30,7 @@ $(document).ready(function() {
 });
 /* Set the width of the side navigation to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "20%";
+  document.getElementById("mySidenav").style.width = "27%";
 }
 
 /* Set the width of the side navigation to 0 */
