@@ -17,6 +17,12 @@
   padding: 0px;
 }
 
+.columnLeft {
+  float: right;
+  width: 50%;
+  padding: 0px;
+}
+
 .columnSpace {
   float: left;
   width: 50%;
