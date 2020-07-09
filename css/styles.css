@@ -14,19 +14,16 @@
   z-index: 999;
   width: 100%;
   padding-top: 17px;
-  color: linear-gradient(to bottom, #33ccff 44%, #ff99cc 66%);
-  background:black;
-  color: white;
+  background:linear-gradient(to bottom, #33ccff 44%, #ff99cc 66%);
+;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding-bottom: 6px;
-  font-family: "Montserrat", sans-serif;
-  color: linear-gradient(to bottom, #33ccff 44%, #ff99cc 66%);
- }
+  font-family: "Montserrat", sans-serif; }
   @media only screen and (max-width: 766px) {
     .main_h {
-        padding-top: 25px; } }
+      padding-top: 25px; } }
 
 .open-nav {
   max-height: 400px !important; }
@@ -73,12 +70,13 @@ nav {
           padding: 7px 0;
           margin: 0; } }
     nav ul a {
+      color: #FFFFFF;
       text-transform: uppercase;
       font-size: 14px;
       font-weight: 500;
       transition: .3s; }
       nav ul a:hover {
-        color: linear-gradient(to bottom, #33ccff 44%, #ff99cc 66%);
+        color: #ffd1dc;
         font-size: 15px;
         text-decoration: none; }
 
@@ -116,8 +114,10 @@ nav {
   box-sizing: border-box; }
 
 body {
-  color: #8f8f8f;
-  background: white;
+  //color: #8f8f8f;
+  //background: white;
+  color: white;
+  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   font-family: "Cardo", serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased; }
@@ -141,11 +141,30 @@ p {
 
 .hero {
   position: relative;
-  background: #FFFFFF url(res/branch_big.svg) no-repeat center center fixed;
+  background: #333 url(res/branch_big.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: local;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  color: #FFFFFF;
+=======
+=======
+>>>>>>> 3137fbe05e3d8f0ce8c66848913714aae94a4ff0
+  body {
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+
+<<<<<<< HEAD
+  
+>>>>>>> 362401d662a29cb198c7c00b361d9d098c08fc9b
+=======
+
+
+
+>>>>>>> 3137fbe05e3d8f0ce8c66848913714aae94a4ff0
   padding-top: 70px;
   min-height: 100vh;
   letter-spacing: 2px;
