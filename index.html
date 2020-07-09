@@ -5,11 +5,13 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 <head>
-  <title>brancher</title>
+  <title>Brancher</title>
+  <link rel="icon" type="image/x-icon" href="./css/res/inverse_branch.svg"/>
 </head>
 
 <body>
@@ -20,7 +22,8 @@
     <div class="row">
 
       <a>
-        <img class="logo" src="./css/res/white_on_black.svg">
+        <img class="logo" src="./css/res/brancher_logo_v2_white.png" style="padding-left: 10px">
+        <!--logo font is unispace-->
       </a>
 
       <div class="mobile-toggle">
@@ -31,51 +34,229 @@
 
       <nav>
         <ul>
-          <li><a href=".sec03">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">Campaigns</a></li>
-          <li><a href="sliders.html">Influencers</a></li>
-          <li><a href=".sec01">Get Started</a></li>
-          <li><a href="login.html">Log In</a></li>
+          <li><a href="company.html">Companies</a></li>
+          <li><a href="influencer.html">Influencers</a></li>
+          <li><div class="dropdown">
+            <button class="dropbtn">SIGN UP</button>
+            <div class="dropdown-content">
+              <a href="signup4influence.html">I'm an influencer</a>
+              <a href="signup4influence.html">I'm a company or brand</a>
+            </div>
+          </div>
+        </li>
+          <div id="mySidenav" class="sidenav">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         </div>
+         <!-- Use any element to open the sidenav -->
+         <li><a span onclick="openNav()">Login</a span></li>
         </ul>
       </nav>
-
     </div>
   </header>
-  <div class="hero gradient-border">
-    <h2><br><br>&emsp;&emsp;You're a<br>brand</h2>
+  <!--<div class="hero gradient-border">-->
+
+  <!--<head>
+    <meta charset="utf-8">
+    <title>...</title>
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <script src="js/slider.js"></script>
+  </head>
+  <body>
+    <div class="ba-slider">
+      <a href="influencer.html">
+        <img src="css/res/home_page_influencers_r.png" style="padding-top: 70px" alt="">
+      </a>
+       <div class="resize">
+         <a href="company.html">
+           <img src="css/res/home_page_companies.png" style="padding-top: 70px" alt="">
+         </a>
+       </div>
+       <span class="handle"></span>
+     </div>
+  </body>-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>...</title>
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+  </head>
+  <body>
+    <div>
+      <div class="column" style="margin-top: 70px">
+        <a href="company.html">
+          <img src="css/res/home_page_left_v2.png" alt="" style="width:100%; height:auto" >
+        </a>
+      </div>
+      <div class="column" style="margin-top: 70px">
+        <a href="influencer.html">
+          <img src="css/res/home_page_right_v2.png" alt="" style="width:100%; height:auto">
+        </a>
+      </div>
+    </div>
+    <!--<div class = "columnSpaceContainer">
+      <div class="columnSpace">
+        <a href="company.html">
+          <img src="css/res/white.png" alt="" style="width:100%;height:5%" >
+        </a>
+      </div>
+      <div class="columnSpace">
+        <a href="influencer.html">
+          <img src="css/res/black.png" alt="" style="width:100%;height:5%">
+        </a>
+      </div>
+    </div>-->
+        <div class="text-center">
+          <h1 class="section-heading text-uppercase" style="text-decoration: white underline overline wavy;">Mission Statement</h1>
+          <h1 class="section-heading text-uppercase" style="margin:10%;">"We want to connect companies with
+social media personalities that are
+looking to participate in sponsored
+content, with much convenience."</h1>
+       </div>
+  </body>
+  <section class="page-section bg-light" id="team">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase" style="font-style:"Montserrat"" >Our Amazing Team</h2>
+              <h3 class="section-subheading text-muted">We are here to serve you, so always feel free to contact us on social media or using the Brancher contact form down below.</h3>
+          </div>
+          <div class="row">
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="css/res/zaeem.PNG" alt="" />
+                      <h4>Zaeem Qureshi</h4>
+                      <p class="text-muted">Chief Operations Offiicer</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/lightningzaqueem/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/zaeem.kureshi.39"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:zaeem.kureshe11@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="css/res/adnan.PNG" alt="" />
+                      <h4>Adnan Murtaza</h4>
+                      <p class="text-muted">Lead Designer</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/adnanmurtaza1/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/adnan.murtaza.378"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:adnanamurtaza@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="css/res/rushil.PNG" alt="" />
+                      <h4>Rushil Sidhu</h4>
+                      <p class="text-muted">Chief Executive Officer</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rushil_sidhu/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rushil.sidhu"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:rushilsidhu@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="css/res/taj.PNG" alt="" />
+                      <h4>Taj Abdin</h4>
+                      <p class="text-muted">Lead Consultant</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/tma_taj/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/taj.abdin.9"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:tajabdin123@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="css/res/abrar.PNG" alt="" />
+                      <h4>Abrar Murtaza</h4>
+                      <p class="text-muted">Lead Marketer</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/abrar.m123/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/abrar.murtaza.16"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:abrarmurtaza3@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="css/res/rushilu.PNG" alt="" />
+                      <h4>Rushil Umaretiya</h4>
+                      <p class="text-muted">Lead Developer</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rushilwiz/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rushil.umaretiya.12"><i class="fab fa-facebook"></i></a><a class="btn btn-dark btn-social mx-2" href="https://github.com/Rushilwiz"><i class="fab fa-github"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center">
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="about.html">Want To Learn More?</a>
+          </div>
+          <div class="row">
+              <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
+          </div>
+      </div>
+  </section>
+  <!--<head>
+    <meta charset="utf-8">
+    <title>...</title>
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+  </head>
+  <body>
+    <div class = "columnSpaceContainer">
+      <div class="columnSpace">
+        <a href="company.html">
+          <img src="css/res/white.png" alt="" style="width:100%;height:100%" >
+        </a>
+      </div>
+      <div class="columnSpace">
+        <a href="influencer.html">
+          <img src="css/res/black.png" alt="" style="width:100%;height:100%">
+        </a>
+      </div>
+    </div>
+  </body> -->
+  <!--</div>-->
+  <section class="page-section" id="contactForm">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase">Contact Us</h2>
+              <h3 class="section-subheading text-muted">We would like to hear your feedback and questions!</h3>
+          </div>
+          <form
+            action="https://formspree.io/xlepwbwz"
+            method="POST"
+          >
+          <div style="margin-left:60px">
+          <label>
+
+          <input type="text" name="_replyto" placeholder="Your Email *" style="width: 300px">
+          </label>
+        </div>
+        <div class="row" style="margin-left:60px">
+          <label>
+
+          <textarea name="message" placeholder="Your Message *" style="width:1000px;height:150px"></textarea>
+          </label>
+        </div>
+          <div class="text-center">
+          <button type="submit" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+        </div>
+      </form>
+
+  <!-- your other form fields go here -->
+
   </div>
+  </section>
+  <!-- Footer-->
+  <footer class="footer py-4">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-4 text-lg-left">BrancherCo</div>
+              <div class="col-lg-4 my-3 my-lg-0">
+                  <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/brancher.co/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCdxzpAHn_Xd6IfaF-o55xBQ"><i class="fab fa-youtube"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:BrancherCo@gmail.com"><i class="fa fa-envelope"></i></a><a class="btn btn-dark btn-social mx-2"
+                   href="https://vm.tiktok.com/JdLtwpS/"><img src="https://img.icons8.com/ios/100/000000/tiktok.png" style="width:50%; height:50%; background-color:white;"/></a><a class="btn btn-dark btn-social mx-2" href="https://www.snapchat.com/add/brancher_co"><i class="fab fa-snapchat"></i></a>
 
-  <div class="row content">
-    <h1 class="sec01">Get Started</h1>
-    <p>Whether your an influencer or company, Brancher offers you a platform to connect with the other side with the assurance that you and your team is safe legally and physcially. </p>
-    <h1 class="sec02">Log In</h1>
-    <p>Lorem Zaeem zaeem smells, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta
-      alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus,
-      aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem
-      veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus
-      est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur
-      hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-      deleniti recusandae odit officiis. Quidem, cupiditate.</p>
-    <h1 class="sec03">About Us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta
-      alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus,
-      aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem
-      veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus
-      est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur
-      hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-      deleniti recusandae odit officiis. Quidem, cupiditate.</p>
-    <h1 class="sec04">Contact</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta
-      alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus,
-      aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem
-      veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus
-      est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur
-      hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur
-      deleniti recusandae odit officiis. Quidem, cupiditate.</p>
+              </div>
 
-  </div>
-
+              <div class="col-lg-4 text-lg-right"><a class="mr-3" href="privacy.html">Privacy Policy</a><a class="mr-3" href="#!">Terms of Use</a><a class="mr-3" href="https://icons8.com/icon/84521/tiktok">Credits</a>
+</div>
+          </div>
+      </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Contact form JS-->
+  <script src="mail/jqBootstrapValidation.js"></script>
+  <script src="mail/contact_me.js"></script>
+  <!-- Core theme JS-->
+  <script src="compjs.js"></script>
 </body>
 
 
