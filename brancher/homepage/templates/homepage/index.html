@@ -27,11 +27,11 @@
           <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="{% static 'homepage/css/res/brancher_logo_v2_white.png' %}" alt="" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav text-uppercase ml-auto">
-                  <li> <a href="#services">Services</a></li>
-                  <li> <a href="#portfolio">Get Started</a></li>
-                  <li> <a href="about.html">About</a></li>
-                  <li> <a href="index.html">Home Page</a></li>
-                  <li> <a href="#contactForm">Contact</a></li>
+                  <li><a href="{% url 'homepage-about' %}">About</a></li>
+                  <li><a href="{% url 'homepage-services' %}">Services</a></li>
+                  <li><a href="{% url 'homepage-companies' %}">Companies</a></li>
+                  <li><a href="{% url 'homepage-influencer' %}">Influencers</a></li>
+                  <li><a href="{% url 'login' %}">Login</a></li>
               </ul>
           </div>
       </div>
