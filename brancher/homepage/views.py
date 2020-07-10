@@ -7,3 +7,12 @@ def index(request):
 
 def about(request):
     return render(request, 'homepage/about.html')
+
+def services(request):
+    return render(request, 'homepage/services.html')
+
+def companies(request):
+    return render(request, 'homepage/companies.html')
+
+def influencer(request):
+    return render(request, 'homepage/influencerw.html')

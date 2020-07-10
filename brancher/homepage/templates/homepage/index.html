@@ -36,11 +36,11 @@
 
       <nav>
         <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="company.html">Companies</a></li>
-          <li><a href="influencer.html">Influencers</a></li>
-          <li><a href="login.html">Login</a></li>
+          <li><a href="{% url 'homepage-about' %}">About</a></li>
+          <li><a href="{% url 'homepage-services' %}">Services</a></li>
+          <li><a href="{% url 'homepage-companies' %}">Companies</a></li>
+          <li><a href="{% url 'homepage-influencer' %}">Influencers</a></li>
+          <li><a href="{% url 'login' %}">Login</a></li>
 
         </ul>
       </nav>
@@ -102,10 +102,10 @@ content, with much convenience."</h1>
               </div>
               <div class="col-lg-4">
                   <div class="team-member">
-                      <img class="mx-auto rounded-circle" src="{% static 'homepage/css/res/adnan.png' %}" alt="" />
-                      <h4>Adnan Murtaza</h4>
-                      <p class="text-muted">Lead Designer</p>
-                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/adnanmurtaza1/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/adnan.murtaza.378"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:adnanamurtaza@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <img class="mx-auto rounded-circle " src="{% static 'homepage/css/res/rushilu.png' %}" alt="" />
+                      <h4>Rushil Umaretiya</h4>
+                      <p class="text-muted">Lead Developer</p>
+                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rushilwiz/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rushil.umaretiya.12"><i class="fab fa-facebook"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:rushilwiz@gmail.com"><i class="fa fa-envelope"></i></a>
                   </div>
               </div>
               <div class="col-lg-4">
@@ -136,10 +136,10 @@ content, with much convenience."</h1>
               </div>
               <div class="col-lg-4">
                   <div class="team-member">
-                      <img class="mx-auto rounded-circle" src="{% static 'homepage/css/res/rushilu.png' %}" alt="" />
-                      <h4>Rushil Umaretiya</h4>
-                      <p class="text-muted">Lead Developer</p>
-                      <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rushilwiz/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rushil.umaretiya.12"><i class="fab fa-facebook"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:rushilwiz@gmail.com"><i class="fab fa-envelope"></i></a>
+                    <img class="mx-auto rounded-circle" src="{% static 'homepage/css/res/adnan.png' %}" alt="" />
+                    <h4>Adnan Murtaza</h4>
+                    <p class="text-muted">Lead Designer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/adnanmurtaza1/"><i class="fab fa-instagram"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/adnan.murtaza.378"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="mailto:adnanamurtaza@gmail.com"><i class="fa fa-envelope"></i></a>
                   </div>
               </div>
           </div>
