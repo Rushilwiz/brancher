@@ -12,7 +12,7 @@ def services(request):
     return render(request, 'homepage/services.html')
 
 def companies(request):
-    return render(request, 'homepage/companies.html')
+    return render(request, 'homepage/company.html')
 
 def influencer(request):
-    return render(request, 'homepage/influencerw.html')
+    return render(request, 'homepage/influencer.html')
