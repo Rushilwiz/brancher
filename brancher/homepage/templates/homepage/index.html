@@ -17,29 +17,27 @@
   <link rel="stylesheet" type="text/css" href="{% static 'homepage/css/styles.css' %}">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' type='text/css'>
   <link rel="stylesheet" type="text/css" href="{% static 'homepage/css/slider.css' %}" />
+  <link rel="stylesheet" href="{% static 'homepage/css/influencecompstyle.css' %}">
   <link rel="icon" type="image/x-icon" href="{% static 'homepage/css/res/inverse_branch.svg' %}"/>
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
+  <nav class="navbar page-section navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="{% static 'homepage/css/res/brancher_logo_v2_white.png' %}" alt="" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ml-auto">
+                  <li> <a href="#services">Services</a></li>
+                  <li> <a href="#portfolio">Get Started</a></li>
+                  <li> <a href="about.html">About</a></li>
+                  <li> <a href="index.html">Home Page</a></li>
+                  <li> <a href="#contactForm">Contact</a></li>
+              </ul>
+          </div>
+      </div>
   </nav>
 
-    <!-- <div>
+    <div>
       <div class="column" style="margin-top: 70px">
         <a href="company.html">
           <img src="{% static 'homepage/css/res/home_page_left_v2.png' %}" alt="" style="width:100%; height:auto" >
@@ -62,7 +60,7 @@
           <img src="{% static 'homepage/css/res/black.png' %}" alt="" style="width:100%;height:5%">
         </a>
       </div>
-    </div>-->
+    </div>
 
   <section class="page-section bg-light" id="team">
       <div class="container">
